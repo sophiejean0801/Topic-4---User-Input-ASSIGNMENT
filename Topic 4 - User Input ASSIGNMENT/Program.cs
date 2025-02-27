@@ -27,7 +27,7 @@
             Console.WriteLine("What's your school login?");
             string login = Console.ReadLine();
             Console.WriteLine("What's your average?"); // rounded to the nearest tenth
-            int average = Convert.ToInt32(Console.ReadLine());
+            double average = Convert.ToDouble(Console.ReadLine());
             
             // Summary
             Console.WriteLine("Summary");
